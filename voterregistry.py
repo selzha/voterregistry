@@ -6,7 +6,7 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
 def voter_registry(ocrfilename, df_name):
-    #ocrfilename = name of file, either in teh same folder or as a path
+    #ocrfilename = name of file, either in the same folder or as a path
     #df_name = name of output
 
     unwanted_words = ["The City Record", "THE CITY RECORD", "OFFICIAL JOURNAL", "SUPPLEMENT", "LIST OF REGISTERED VOTERES", "BOROUGH OF"]
